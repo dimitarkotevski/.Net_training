@@ -5,6 +5,7 @@
     <div class="container" style="margin: 20px;">
        <div class="row">
            <div class="col-md-3">
+               <div>Email</div>
                <asp:TextBox ID="email" runat="server" style="width: 100%"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">
@@ -25,6 +26,7 @@
 
        <div class="row" style="margin-top: 10px;">
            <div class="col-md-3">
+               <div>Password</div>
                <asp:TextBox ID="password" runat="server" style="width: 100%"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">
@@ -45,6 +47,7 @@
 
        <div class="row" style="margin-top: 10px;">
            <div class="col-md-3">
+               <div>Confirm Password</div>
                <asp:TextBox ID="cpassword" runat="server" style="width: 100%"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">

@@ -5,7 +5,9 @@
 
     <div class="container" style="margin: 20px;">
        <div class="row">
+           
            <div class="col-md-3">
+               <div>Subject</div>
                <asp:TextBox ID="name" runat="server" style="width: 100%"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">
@@ -23,6 +25,7 @@
 
        <div class="row" style="margin-top: 10px;">
            <div class="col-md-3">
+               <div>Grade</div>
                <asp:TextBox ID="grade" runat="server" style="width: 100%"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">
@@ -43,6 +46,7 @@
 
        <div class="row" style="margin-top: 10px;">
            <div class="col-md-3">
+               <div>Date</div>
                <asp:TextBox ID="date" runat="server" style="width: 100%"></asp:TextBox>
            </div>
            <div class="col-md-9 text-left">
